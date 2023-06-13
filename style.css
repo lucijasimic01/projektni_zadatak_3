@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    font-family: calibri;
+    background-image: url('slike/oblak.jpg');
+    color: darkslateblue;
+}
+
+nav, a:hover{
+    color: rgb(96, 82, 183);
+}
+
+h3{
+    margin: 50px;
+    font-size: 25px;
+}
+
+h2{
+    margin: 10px;
+}
+
+.cedevita{
+    height: 500px;
+}
+
+/*links*/
+
+nav a:hover{
+    font-weight: bold;
+}
+
+hr{
+    border: darkslateblue solid 1px;
+    margin: 5px;
+    
+}
+
+li{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+a:hover, a:active{
+    font-weight: bold;
+}
+
+footer{
+    bottom: 0;
+}
+ 
+img{
+    margin: 10px;
+}
+
+div{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+li{
+    text-align: left;
+}
+
+/*nav*/
+
+nav a{
+   padding: 20px;
+   font-weight: bold;
+}
+
+/*naslovnica*/
+
+@font-face {
+    font-family:'lucijasimic_novo';
+    src: url(font/lucijasimic_novo.ttf);
+}
+
+.h1-home{
+    font-family: 'lucijasimic_novo';
+    font-size: 100px;
+}
+
+/*o meni*/
+
+img{
+    width: 250px;
+}
+
+.cat{
+    width: 503px;
+}
